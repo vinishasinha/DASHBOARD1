@@ -1,4 +1,4 @@
-// src/pages/Dashboard.js
+
 import React from 'react';
 import './main.css';
 const Dashboard = () => {
