@@ -1,4 +1,4 @@
-// src/pages/Calendar.js
+
 import React from 'react';
 import FullCalendar from '@fullcalendar/react';
 import dayGridPlugin from '@fullcalendar/daygrid';
@@ -15,8 +15,8 @@ const Calendar = () => {
         editable={true}
         selectable={true}
         events={[
-          { title: 'Event 1', date: '2024-06-20' },
-          { title: 'Event 2', date: '2024-06-21' },
+          { title: 'BIRTHDAY', date: '2024-06-20' },
+          { title: 'EXAMINATION', date: '2024-06-01' },
         ]}
       />
     </div>
