@@ -1,4 +1,4 @@
-// src/pages/Tables.js
+
 import React from 'react';
 import { DataGrid } from '@mui/x-data-grid';
 
@@ -9,9 +9,18 @@ const columns = [
 ];
 
 const rows = [
-  { id: 1, name: 'ANJALI', age: 20 },
-  { id: 2, name: 'MAYANK', age: 21   },
-  // Add more rows as needed
+ { id: 1, name: 'VINISHA', age: 21 },
+  { id: 2, name: 'BARKHA', age: 12   },
+  { id: 4, name: 'AYUSH', age: 23  },
+  { id: 5, name: 'BINAY', age: 26 },
+  { id: 6, name: 'RISHAV', age: 15  },
+  { id: 7, name: 'NIDHI', age: 22  },
+  { id: 8, name: 'NEHA', age: 14  },
+  { id: 9, name: 'AROHI', age: 34  },
+  { id: 10, name: 'KARTIK', age: 34  },
+  { id: 11, name: 'ANJALI', age: 30  },
+  { id: 12, name: 'KIRTI', age: 29  },
+  { id: 13, name: 'SUMIT KUMAR', age: 30  },
 ];
 
 const Tables = () => {
